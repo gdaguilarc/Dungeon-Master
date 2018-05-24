@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1954618094583640}
+  m_IsPrefabParent: 1
+--- !u!1 &1954618094583640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4828269723483768}
+  - component: {fileID: 114797216650450546}
+  m_Layer: 0
+  m_Name: RoomObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4828269723483768
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1954618094583640}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.0689125, y: -1.4184829, z: -10}
+  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114797216650450546
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1954618094583640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b20f086b10b27345b9377f0002516b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberEnemy: 0
+  enemies:
+  - {fileID: 1808763394211436, guid: fcd4ddfcfc48d3b46bd35f0a91da58fe, type: 2}
+  arrowUP: {fileID: 1082668551775658, guid: 1ede7e44a59679e4c9c34bd18e9d8e65, type: 2}
+  arrowDOWN: {fileID: 1845023519189346, guid: 11456e9aba3aa034abb94d9263bdf280, type: 2}
+  arrowLEFT: {fileID: 1979759696975190, guid: 88781a1d5df042547956701dca0425b6, type: 2}
+  arrowRIGHT: {fileID: 1964204629301432, guid: 576ae5cffff462741b32140abe3b66d5, type: 2}
+  gridPos: {x: 0, y: 0}
+  UP: 0
+  DOWN: 0
+  RIGHT: 0
+  LEFT: 0
+  a: 0
+  floorTiles:
+  - {fileID: 1306631153795520, guid: afe62295b75265c4f881b23b4ffd653b, type: 2}
+  - {fileID: 1860167005860324, guid: e973dd6d56ff1b4419d04a33ad4e3376, type: 2}
+  - {fileID: 1450716863496636, guid: 1ccb58459f7ae584fb18d593dbf9ea76, type: 2}
+  wallInPerspective:
+  - {fileID: 1278683938656504, guid: 6ca57782e350ace45bb0d18fa204ceaa, type: 2}
+  - {fileID: 1297628150749266, guid: abad945effe08b94cadf2e47be0300af, type: 2}
+  - {fileID: 1490274882861882, guid: 233b14381d1064f479f3dca0475d75a1, type: 2}
+  verticalWall:
+  - {fileID: 1422521603042098, guid: 4e134a4b60afea141ae404b7644ad95f, type: 2}
+  - {fileID: 1760260129393934, guid: b48b7ffac0901ce47a907f6f0c693a2c, type: 2}
+  - {fileID: 1266873489438152, guid: 3c000674f8ab4da4cbe3607562a45e49, type: 2}
+  horizontalWall:
+  - {fileID: 1381811321134434, guid: 9ea5db0ecc7cdb2418ea303fb5ff98d7, type: 2}
+  - {fileID: 1760260129393934, guid: b48b7ffac0901ce47a907f6f0c693a2c, type: 2}
+  - {fileID: 1266873489438152, guid: 3c000674f8ab4da4cbe3607562a45e49, type: 2}
+  door:
+  - {fileID: 1119716621240546, guid: ca3807cbd9c352d4d9de068c888c9f0f, type: 2}
+  - {fileID: 1119716621240546, guid: ca3807cbd9c352d4d9de068c888c9f0f, type: 2}
+  - {fileID: 1119716621240546, guid: ca3807cbd9c352d4d9de068c888c9f0f, type: 2}
+  - {fileID: 1064152497268594, guid: 507041a51bf785b4b9e13bad434fc0af, type: 2}
+  chests:
+  - {fileID: 1023513165645654, guid: e3f5d66f846f8904f9aa3c65daf8a6dd, type: 2}
+  - {fileID: 1023513165645654, guid: e3f5d66f846f8904f9aa3c65daf8a6dd, type: 2}
+  - {fileID: 1023513165645654, guid: e3f5d66f846f8904f9aa3c65daf8a6dd, type: 2}
+  table:
+  - {fileID: 1431982619649970, guid: dac8e4e42fcfaf14c96a5875e32d4b05, type: 2}
+  - {fileID: 1546771235194370, guid: 3b8c074cfe9694f329e6b1281f48d555, type: 2}
+  - {fileID: 1546771235194370, guid: 3b8c074cfe9694f329e6b1281f48d555, type: 2}
+  bottles:
+  - {fileID: 1276755323101996, guid: c404a10ab88b8dc49b2e74dbd5c14d46, type: 2}
+  - {fileID: 1276755323101996, guid: c404a10ab88b8dc49b2e74dbd5c14d46, type: 2}
+  - {fileID: 1276755323101996, guid: c404a10ab88b8dc49b2e74dbd5c14d46, type: 2}
+  box:
+  - {fileID: 1481772381240794, guid: c68f26b71221d41648f25160ca811bd7, type: 2}
+  - {fileID: 1853202417526630, guid: 739864856c139423884de71e8cab4756, type: 2}
+  - {fileID: 1298499459967640, guid: db9818ba898cf4c4bb4f8b08b03da305, type: 2}
+  boxes:
+  - {fileID: 1833894798005856, guid: a5773d9e6ab434c97ac27e9fef67b281, type: 2}
+  - {fileID: 1440369569007172, guid: 96b16b2d41489429699079c7771b630c, type: 2}
+  - {fileID: 1824939287474036, guid: ec4e398ba0fac4d86a80441dd7ee7dfc, type: 2}
+  barriles:
+  - {fileID: 1443017705305314, guid: 5b5a7d9ff079843929b732bdfae3515a, type: 2}
+  - {fileID: 1045796136910114, guid: 69fcf489f0201cf4ba0c8c6e515069ea, type: 2}
+  - {fileID: 1396378541280392, guid: f297057840b0ea641afc63473e7d6832, type: 2}
+  weapon:
+  - {fileID: 1069847403220238, guid: a6eccd4397d055b42af5a8f44dbb427d, type: 2}
+  wallDecorations:
+  - {fileID: 1027956023717948, guid: f23cc0cb7f0dd4536b26390b2913e475, type: 2}
+  - {fileID: 1303168340147672, guid: 24ee6ac79d59845a9a9b73a63dc5ed6a, type: 2}
+  - {fileID: 1333029203843268, guid: d5e2c28fe20c5442597bf2acc45e1493, type: 2}
+  bosses:
+  - {fileID: 1571154778394700, guid: 75821d44f2c654de6bb6db2cbf90b66e, type: 2}
+  - {fileID: 1107907353788192, guid: 283692f2f3f664fa4802e4fe5c7a8d1f, type: 2}
+  - {fileID: 1626196946741172, guid: d2fc90b82600449e69d7225e7b394744, type: 2}
+  generator: {fileID: 0}
