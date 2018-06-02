@@ -1,4 +1,4 @@
-# Final Project Videogames Unity
+# Dungeon Master
 
 ## It's the project of a course of Unity in my University
 
@@ -18,6 +18,10 @@
 2.  In Unity use the option open project.
 3.  Use as main folder "Project src" directory.
 4.  Now you are ready, look for the scenes inside "Assets".
+
+## GAMEPLAY
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3IamUCYlnYE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Basic Sprites
 
